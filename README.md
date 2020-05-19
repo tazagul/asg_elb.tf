@@ -6,7 +6,7 @@
 2. Security Group for ec2
    - port 22 open for everyone 
    - port 80 open for elb 
-3. Security group for elb
+3. Security Group for elb
    - port 80 open for everyone 
 4. Key 
    - to connect to ec2 via ssh key
@@ -37,7 +37,7 @@
 ## How to use this code 
 
 1. Clone this repo
-2. Add .tvars file
+2. Add .tfvars file
 3. Run terraform init
 4. Run terraform plan
 5. Run terraform apply
