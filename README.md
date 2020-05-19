@@ -11,7 +11,7 @@
 3. Security Group for elb
    - port 80 open for everyone 
 4. Key pair 
-   - to connect to ec2 via ssh key
+   - to connect to ec2 using ssh key
 5. Launch configuration
    - AMIs are from different regions 
    - userdata installs nginx and writes "Hello world" to index file
