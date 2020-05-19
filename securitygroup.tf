@@ -1,3 +1,4 @@
+# instance sg
 resource "aws_security_group" "myinstance" {
   vpc_id      = aws_vpc.main.id
   name        = "myinstance"
@@ -28,6 +29,7 @@ resource "aws_security_group" "myinstance" {
   }
 }
 
+# elb sg
 resource "aws_security_group" "elb-securitygroup" {
   vpc_id      = aws_vpc.main.id
   name        = "elb"
