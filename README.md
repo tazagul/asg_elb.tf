@@ -1,6 +1,8 @@
 # Creating secure, fault-tolerante and H/A website on AWS EC2
 ## This code will create:
 1. VPC 
+   - route tables
+   - route table association 
    - 3 public subnets "for elb"
    - 3 private subnets "for ec2"
 2. Security Group for ec2
@@ -8,11 +10,13 @@
    - port 80 open for elb 
 3. Security Group for elb
    - port 80 open for everyone 
-4. Key 
+4. Key pair 
    - to connect to ec2 via ssh key
 5. Launch configuration
    - AMIs are from different regions 
    - userdata installs nginx and writes "Hello world" to index file
+6. EC2 instances 
+   - depending on min and max amount you defime on ASG
 6. ELB automatically 
    - distributes incoming application traffic 
 7. Autoscaling Group
