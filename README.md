@@ -26,7 +26,6 @@
 ## Prerequsites: 
  
 1. Download and extract the  latest release of the Terraform. 
-
    -  [Download Terraform - Terraform by HashiCorp](https://www.terraform.io/downloads.html)
    -  Run unzip terraform
    -  Run mv terraform /bin
