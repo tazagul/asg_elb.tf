@@ -16,7 +16,7 @@
    - AMIs are from different regions 
    - userdata installs nginx and writes "Hello world" to index file
 6. EC2 instances 
-   - depending on min and max amount you defime on ASG
+   - depending on minimum and maximum amount you define on ASG
 6. ELB automatically 
    - distributes incoming application traffic 
 7. Autoscaling Group
