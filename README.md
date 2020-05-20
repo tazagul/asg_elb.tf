@@ -1,5 +1,6 @@
 # Creating secure, fault-tolerante and H/A website on AWS EC2
 
+---
 ## This code will create:
 
 1. VPC 
