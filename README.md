@@ -1,4 +1,5 @@
-# Creating secure, fault-tolerante and H/A website on AWS EC2
+# Creating an Infrastructure on AWS using Terraform.
+![aws](elb-asg-ec2.png)
 
 ---
 ## This code will create:
@@ -24,11 +25,8 @@
    - distributes incoming application traffic 
 7. Autoscaling Group
    - scales resources to meet traffic demands 
-
-     using launch configurtaion
-
-     using elb healthcheck 
-
+       * using launch configurtaion
+       * using elb healthcheck 
 ---
 ## Prerequsites: 
  
