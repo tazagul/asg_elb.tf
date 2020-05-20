@@ -1,5 +1,7 @@
 # Creating secure, fault-tolerante and H/A website on AWS EC2
+
 ## This code will create:
+
 1. VPC 
    - route tables
    - route table association 
@@ -26,18 +28,25 @@
 
      using elb healthcheck 
 
-   
+---
 ## Prerequsites: 
  
-1. Download and extract the  latest release of the Terraform. 
-   -  [Download Terraform - Terraform by HashiCorp](https://www.terraform.io/downloads.html)
-   -  Run unzip terraform
-   -  Run mv terraform /bin
-
-2. You should have an AWS account credentials. 
+1. You should have an AWS account credentials. 
    -  Setup IAM access key and secret on your AWS account.
-   -  To login to your account run on your terminal aws configure
-
+   -  To login to your account run on your terminal
+   ```
+    aws configure
+   ```
+2. Download and extract the  latest release of the Terraform. 
+   -  [Download Terraform - Terraform by HashiCorp](https://www.terraform.io/downloads.html)
+   -  Run on your terminal 
+   ```
+   unzip terraform
+   ```
+   ```
+   mv terraform /bin
+   ```
+---
 ## How to use this code 
 
 1. Clone this repo
