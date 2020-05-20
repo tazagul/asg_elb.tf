@@ -50,6 +50,6 @@
 
 1. Clone this repo
 2. Add .tfvars file
-3. Run terraform init
-4. Run terraform plan
-5. Run terraform apply
+3. Run ```terraform init```
+4. Run ```terraform plan```
+5. Run ```terraform apply```
