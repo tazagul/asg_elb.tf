@@ -1,5 +1,5 @@
 # Creating an Infrastructure on AWS using Terraform.
-![aws](elb-asg-ec2.png)
+![aws](1_QqNjFvomy1ZcVnJ_y8yPrQ.png)
 
 ---
 ## This code will create:
